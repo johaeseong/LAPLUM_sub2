@@ -1,0 +1,200 @@
+*{margin:0; padding:0;}
+ul{list-style:none;}
+a{text-decoration:none; color:#000;}
+
+body{font-family:'arial';
+    font-size:17px;
+    line-height: 20px;
+    color:#000;}
+
+
+.header{background:#e1f3e3;
+        width:100%;
+        height:90px;
+        position:relative;}
+
+
+
+/*헤더메뉴 드롭다운 s*/
+
+.nav{padding-left:200px;}
+
+
+.nav>li{margin:0 auto;
+        float:left;
+        position:relative;}
+
+.nav>li>a{display:block; 
+        padding:35px 35px;
+        text-align: center;}
+
+
+
+.sub{width:100%;
+    display:none;
+    position:absolute;
+    top:90px; left:0px;
+    z-index:2;}
+
+.sub li a{display:block;
+            background-color:#2b5f49;
+            color:#fff;
+            text-align:center;
+            /*border-bottom: 1px solid rgb(255, 255, 255);
+            border-top: 1px solid rgba(175, 175, 175, 0.5);*/
+            padding:10px;}
+
+.nav li:hover .sub{display:block;}
+
+.sub li a:hover{background-color:#e1f3e3;
+                color:#2b5f49;} */
+
+/*헤더메뉴 드롭다운 f*/
+
+
+.topheader{position:relative;}
+
+.logo{/*margin:0 auto;*/
+    position:absolute;
+    top:10px; left:50%;
+    margin-left:-33.5px;}
+
+.link{float:right;
+    padding-right:200px;}
+.link li{float:left;
+        padding:35px 20px;}
+    
+/*헤더 끝*/
+
+
+
+.mainbanner{width:100%;
+            height:1285px;
+            background:url(../images/mainbannerbg.jpg) no-repeat center top;
+            position:relative;}
+
+.mainbanner a{display:block;
+                width:100%;}
+
+
+
+
+
+/*더알아보기 버튼 S*/
+.button{display:inline-block;
+    color:#fff;
+    width:150px;
+    height:50px;
+    background:#2b5f49;
+    
+    line-height:50px;
+    
+    border:1px solid #2b5f49;
+    text-align:center;
+    text-decoration:none;
+    
+    transition-property:all; /*속성값*/
+    transition-duration:0.2s; /*효과완료하는 시간*/
+    transition-timing-function:ease-in-out;  /*효과의 속도곡선*/
+    transition-delay:0; /*효과의 지연되는 시간*/
+
+    
+    position:absolute;
+    top:1230px; left:50%;
+    margin-left:-75px;}
+
+
+.button:hover{background:#fff;/*마우스호버시 효과*/
+             color:#2b5f49;}
+/*더알아보기 버튼 F*/
+
+
+
+
+
+/*패턴슬라이더 css,js파일 따로있음*/
+
+.patterndesign{width:100%;
+                height:420px;
+                background-color:rgb(238, 238, 238);
+                margin-bottom:150px;
+                position:relative;}
+
+
+
+.collection{margin:20px 0;}
+
+
+.collection1{text-align:center;
+            margin:200px 0;}
+
+.collection2{text-align:center;
+            margin:200px 0;}
+
+.collection3{text-align:center;
+            margin:200px 0;}
+
+
+
+/*더알아보기 버튼 S*/
+.button1 , .button2 , .button3
+{display:inline-block;
+    color:#fff;
+    width:150px;
+    height:50px;
+    background:#2b5f49;
+    
+    line-height:50px;
+    
+    border:1px solid #2b5f49;
+    text-align:center;
+    text-decoration:none;
+    
+    transition-property:all; /*속성값*/
+    transition-duration:0.2s; /*효과완료하는 시간*/
+    transition-timing-function:ease-in-out;  /*효과의 속도곡선*/
+    transition-delay:0; /*효과의 지연되는 시간*/}
+
+
+.button1:hover{background:#fff;/*마우스호버시 효과*/
+                 color:#2b5f49;}
+
+
+.button2:hover{background:#fff;/*마우스호버시 효과*/
+                color:#2b5f49;}
+
+
+.button3:hover{background:#fff;/*마우스호버시 효과*/
+                color:#2b5f49;}
+/*더알아보기 버튼 F*/
+
+
+
+.button1{position:absolute;
+        top:2400px; left:360px;}
+
+
+.button2{position:absolute;
+    top:3130px; right:355px;}
+
+.button3{position:absolute;
+    top:3940px; left:360px;}
+
+
+
+
+
+.footer ul{float: left;
+            padding:0 30px;
+            font-size:13px;}
+
+
+.footer{margin-top:150px;
+    padding-left:35%;
+    height:270px;
+    background-color:#e1f3e3;
+    padding-top:50px;}
+
+.footer2{font-size:13px;
+    text-align:center;
+    padding-right:630px;}
